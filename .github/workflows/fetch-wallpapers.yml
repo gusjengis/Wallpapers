@@ -1,0 +1,112 @@
+name: Fetch new wallpapers
+
+# Peapix publishes roughly three or four distinct 4K images a day across bing's
+# twelve markets and spotlight. This job collects them so no machine has to be
+# switched on for the library to stay current.
+
+on:
+  schedule:
+    # 05:40 UTC, comfortably after every market has rolled over to the new day.
+    - cron: "40 5 * * *"
+  workflow_dispatch:
+    inputs:
+      margin:
+        description: "How many ids below the newest known one to re-check"
+        required: false
+        default: "50"
+
+permissions:
+  contents: write
+
+concurrency:
+  # Never let two runs push to the same branch at once. Queued rather than
+  # cancelled, so a manual run cannot discard a scheduled one mid-push.
+  group: fetch-wallpapers
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out metadata without the images
+        uses: actions/checkout@v4
+        with:
+          # 17 GB of pixels are not needed: deduplication runs off the sha256
+          # and perceptual hashes already recorded in metadata.json. Only the
+          # rare unresolved hash collision pulls a single image, on demand.
+          lfs: false
+          fetch-depth: 1
+
+      - name: Install Nix
+        uses: DeterminateSystems/nix-installer-action@main
+
+      - name: Fetch, translate and cache palettes
+        env:
+          # The scripts address the library through this rather than $HOME, so
+          # the same code runs unchanged here and on a workstation.
+          WALLPAPER_DIR: ${{ github.workspace }}
+          WALLPAPER_CACHE_DIR: ${{ runner.temp }}/peapix-cache
+          MARGIN: ${{ github.event.inputs.margin || '50' }}
+        run: |
+          set -euo pipefail
+
+          # The devShell in this repo's flake.nix pins ImageMagick 7 (ubuntu
+          # ships 6, which has no `magick` binary), matugen and
+          # translate-shell, so CI behaves the same way as a workstation.
+          #
+          # $MARGIN is intentionally left for the inner shell to expand: it is
+          # an environment variable of this step, and quoting it out here would
+          # interpolate before nix has built the environment.
+          # shellcheck disable=SC2016
+          nix develop --command bash -euo pipefail -c '
+            python3 fetch-peapix.py --incremental --incremental-margin "$MARGIN" --rate 12
+            python3 translate-metadata.py --rate 6
+            python3 generate-palettes.py
+          '
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No new wallpapers."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Explicit rather than trusting the runner image: if the filter were
+          # inactive these would be committed as multi-megabyte blobs straight
+          # into git history, which cannot be undone by a later commit.
+          git lfs install --local
+
+          # curation.json is written by the workstations, never here; staging it
+          # would fight with the hide feature for ownership of the file.
+          git add -- . ':!curation.json'
+          if git diff --cached --quiet; then
+            echo "Only curation.json changed, nothing for this job to publish."
+            exit 0
+          fi
+
+          for image in $(git diff --cached --name-only --diff-filter=A -- '*.jpg'); do
+            if ! git cat-file -p ":$image" | head -1 | grep -q '^version https://git-lfs'; then
+              echo "$image was not converted to an LFS pointer, refusing to commit" >&2
+              exit 1
+            fi
+          done
+
+          added=$(git diff --cached --name-only --diff-filter=A -- '*.jpg' | wc -l)
+          git commit -m "Add ${added} wallpaper(s) from peapix"
+
+          # A workstation may have pushed a curation change since checkout.
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push rejected, rebasing (attempt ${attempt})"
+            git pull --rebase --autostash
+          done
+          echo "could not push after 3 attempts" >&2
+          exit 1
