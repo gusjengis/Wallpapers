@@ -165400,7 +165400,9 @@
     "bing/57650",
     "bing/57653",
     "bing/57654",
-    "bing/57655"
+    "bing/57655",
+    "bing/57656",
+    "bing/57657"
    ],
    "palette": {
     "background": "#1a120e",
@@ -165461,6 +165463,191 @@
     "warning": "#dbbce1",
     "danger": "#ffb4ab",
     "border": "#43474e"
+   }
+  },
+  "bing-57668.jpg": {
+   "title": "Sea otter grooming fur, Monterey Bay, California",
+   "headline": "Life between fur and sea. Sea Otter Awareness Week",
+   "description": "Few animals can claim to be both expert groomers and guardians of underwater forests. That's why Sea Otter Awareness Week, held each year during the last full week of September, encourages people to discover more about these remarkable marine mammals and the challenges they face.\n\nIn today's image, a sea otter grooms its fur in Monterey Bay, California. This behavior is far more than a daily ritual. Unlike seals and whales, sea otters have little insulating blubber, so they rely on the densest fur of any animal. Careful cleaning traps air within their coat, creating a waterproof layer that helps them stay warm in the cold Pacific. Sea otters are also considered a keystone species. By feeding on sea urchins and other invertebrates, they play a vital role in protecting kelp forests, which provide habitat for countless marine organisms. Once pushed to the brink by the fur trade, these charismatic mammals remain symbols of resilience and coastal conservation.",
+   "copyright": "© Suzi Eszterhas/Minden Picture",
+   "date": "2026-09-21",
+   "tags": [
+    "sea otter",
+    "otter",
+    "north american river otter",
+    "marine mammal",
+    "mammal",
+    "animal",
+    "water",
+    "outdoor"
+   ],
+   "id": "57668",
+   "url": "https://peapix.com/bing/57668",
+   "source": "bing",
+   "market": "us",
+   "imageKey": "5cb3a1a60b8e43b6bb6c6b9ed34ccb9f",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "87b4ffdbd156de54825e6fde95a99f92149a41aea4cdd92e2e45735b140a5197",
+   "dhash": "8a4458911479595d",
+   "aliases": [
+    "bing/57658",
+    "bing/57659",
+    "bing/57660",
+    "bing/57661",
+    "bing/57662",
+    "bing/57663",
+    "bing/57664",
+    "bing/57665",
+    "bing/57666",
+    "bing/57667",
+    "bing/57669"
+   ],
+   "palette": {
+    "background": "#101418",
+    "surface": "#1c2024",
+    "surfaceHover": "#272a2e",
+    "text": "#e0e2e8",
+    "muted": "#c2c7ce",
+    "accent": "#99ccfa",
+    "accentStrong": "#61b2f2",
+    "warning": "#d2bfe7",
+    "danger": "#ffb4ab",
+    "border": "#42474e"
+   }
+  },
+  "bing-57673.jpg": {
+   "title": "Casa de Hobbit en el decorado de películas de Hobbiton, Matamata, Nueva Zelanda",
+   "headline": "Donde lo pequeño se hace grande. Decorado de películas de Hobbiton, Matamata, Nueva Zelanda",
+   "description": "Casi todos los lugares célebres los construyó la historia; este lo construyó un relato. El decorado de Hobbiton está en Matamata (Nueva Zelanda), sobre una granja de ovejas que en 1998 llamó la atención de los localizadores de El Señor de los Anillos: las colinas ya parecían la Comarca y solo faltaron puertas redondas, huertos ordenados y chimeneas humeantes.\n\nAquellos decorados eran provisionales. Para la trilogía de El Hobbit se rehicieron con materiales permanentes, y desde entonces el lugar recibe a quienes quieren pisar la Tierra Media.\n\nLa fecha tampoco es casual: el 22 de septiembre es el cumpleaños que Bilbo y Frodo comparten en las novelas de J. R. R. Tolkien, un autor que no se limitó a contar historias, sino que inventó idiomas, mapas y canciones para sostener un mundo entero. Que exista un sitio real al que ir a buscarlo dice bastante de su alcance.",
+   "copyright": "© djr-photography/Shutterstoc",
+   "date": "2026-09-22",
+   "tags": [
+    "flowerpot",
+    "garden",
+    "grass",
+    "tree",
+    "flower",
+    "sky",
+    "plant",
+    "outdoor",
+    "shrub",
+    "pot"
+   ],
+   "id": "57673",
+   "url": "https://peapix.com/bing/57673",
+   "source": "bing",
+   "market": "es",
+   "imageKey": "87dd8fef1f824be0a6e73d7b242aeeea",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "88cf8460b202a8cbf94f82f3764a1d74d997f5d8180c2cbd23569b8e5fc0e999",
+   "dhash": "d9396de3e3c18396",
+   "aliases": [
+    "bing/57674",
+    "bing/57675",
+    "bing/57676"
+   ],
+   "englishTitle": "Hobbit House in the Hobbiton movie set, Matamata, New Zealand",
+   "englishHeadline": "Where small becomes big. Hobbiton Movie Set, Matamata, New Zealand",
+   "englishDescription": "Almost all famous places were built by history; This was built by a story. The set of Hobbiton is in Matamata (New Zealand), on a sheep farm that in 1998 caught the attention of the locators of The Lord of the Rings: the hills already looked like the Shire and the only thing missing was round doors, orderly orchards and smoking chimneys.\n\nThose sets were provisional. For The Hobbit trilogy they were remade with permanent materials, and since then the place welcomes those who want to set foot on Middle Earth.\n\nThe date is not coincidental either: September 22 is the birthday that Bilbo and Frodo share in the novels of J. R. R. Tolkien, an author who did not limit himself to telling stories, but invented languages, maps and songs to sustain an entire world. That there is a real place to go look for it says a lot about its reach.",
+   "palette": {
+    "background": "#14140c",
+    "surface": "#202018",
+    "surfaceHover": "#2b2a22",
+    "text": "#e6e3d5",
+    "muted": "#cac7b6",
+    "accent": "#cbcb76",
+    "accentStrong": "#b0b03e",
+    "warning": "#a4d0bd",
+    "danger": "#ffb4ab",
+    "border": "#48473a"
+   }
+  },
+  "bing-57677.jpg": {
+   "title": "Aerial view of black lava beach, El Golfo, Lanzarote, Canary Islands, Spain",
+   "headline": "Ash meets splash. Black lava beach, El Golfo, Lanzarote, Canary Islands, Spain",
+   "description": "On Lanzarote, part of Spain's Canary Islands, geology got carried away. Dark sand meets the Atlantic beneath cliffs streaked with ochre and rust, the handiwork of volcanic activity spanning millions of years. One chapter of this story arrived remarkably recently: between 1730 and 1736, numerous vents opened across Lanzarote, sending lava over dozens of square miles and burying roads, villages and farmland.\n\nThe beach in the image sits beside El Golfo, a tiny fishing village on the island's western shore. The settlement borders Los Volcanes Natural Park, while boats, seafood restaurants and crashing waves carry on as if this scenery were perfectly ordinary. Nearby, the famous green lagoon Charco de los Clicos occupies a partially collapsed volcanic crater linked to the sea through underground fissures. Its improbable emerald colour comes partly from algae, bringing green water, black sand and blue sea into one strikingly vivid frame. No filter required. El Golfo comes with its own colour palette.",
+   "copyright": "© Westend61/Adobe Stoc",
+   "date": "2026-09-22",
+   "tags": [
+    "mountain",
+    "nature",
+    "water",
+    "landscape",
+    "outdoor"
+   ],
+   "id": "57677",
+   "url": "https://peapix.com/bing/57677",
+   "source": "bing",
+   "market": "gb",
+   "imageKey": "3da6aa98c12f48209ec881996965bcc8",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "5ff6e8a774b027aac0c2b08aa7d8c591ad6bf481740d80514f9658ac1fb9715d",
+   "dhash": "7cfecf26a4c49419",
+   "aliases": [
+    "bing/57672"
+   ],
+   "palette": {
+    "background": "#0f1417",
+    "surface": "#1b2023",
+    "surfaceHover": "#252b2d",
+    "text": "#dee3e6",
+    "muted": "#c0c8cc",
+    "accent": "#89d0ed",
+    "accentStrong": "#3cb8e1",
+    "warning": "#c4c3eb",
+    "danger": "#ffb4ab",
+    "border": "#40484c"
+   }
+  },
+  "bing-57680.jpg": {
+   "title": "Fall aspen trees near Guardsman Pass, Utah, USA",
+   "headline": "The golden season. Autumn equinox",
+   "description": "The autumn equinox marks a turning point in the Northern Hemisphere. Occurring each September, it is the moment when the sun crosses the equator heading south, and day and night are nearly equal in length. After this celestial balance, daylight gradually shrinks as the journey toward winter begins.\n\nNear Guardsman Pass in Utah, the change is written across the mountainsides in gold. Many of the aspens coloring the American West are quaking aspens, the most widely distributed native tree species in North America. What appears to be a forest of individuals is often something else entirely: many aspens grow in connected colonies, with trunks emerging from a shared root network and carrying the same genetic code as their neighbors.\n\nEven as their leaves turn yellow and fall, much of the organism remains alive below ground. Aspens can persist through winter via their root systems, quietly preparing for future growth. The autumn equinox may signal summer's end, but in these remarkable groves, life never truly pauses.",
+   "copyright": "© Danita Delimont/Shutterstoc",
+   "date": "2026-09-22",
+   "tags": [
+    "poplar",
+    "autumn",
+    "grass",
+    "fall",
+    "forest",
+    "wilderness",
+    "tree",
+    "plant",
+    "landscape",
+    "nature",
+    "outdoor"
+   ],
+   "id": "57680",
+   "url": "https://peapix.com/bing/57680",
+   "source": "bing",
+   "market": "us",
+   "imageKey": "5a381fb63c444a20bf1cbd4a32851389",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "afc7e117f29527d08415b88a326b41630477e6d6211bc3f65834e0938dfe5588",
+   "dhash": "e4f676e5d3db93b7",
+   "aliases": [
+    "bing/57670",
+    "bing/57671",
+    "bing/57678",
+    "bing/57679",
+    "bing/57681"
+   ],
+   "palette": {
+    "background": "#16130b",
+    "surface": "#231f17",
+    "surfaceHover": "#2d2a21",
+    "text": "#e9e2d4",
+    "muted": "#cec6b4",
+    "accent": "#e1c46d",
+    "accentStrong": "#cea700",
+    "warning": "#accfaf",
+    "danger": "#ffb4ab",
+    "border": "#4c4639"
    }
   },
   "windows-spotlight-1006.jpg": {
