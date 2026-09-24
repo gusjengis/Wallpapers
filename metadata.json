@@ -164524,7 +164524,10 @@
    },
    "englishTitle": "Castelmezzano, province of Potenza in Basilicata, Italy",
    "englishHeadline": "The beauty of the villages",
-   "englishDescription": "Castelmezzano, in the province of Potenza (Basilicata, Italy), cannot be seen until you are inside it: you arrive by passing through a tunnel and at the exit the village suddenly appears, wedged between the sandstone spires of the Lucanian Dolomites.\n\nThe houses climb on top of each other at 750 meters above sea level, connected by stairs and alleys that lead up to the remains of the Norman-Swabian castle. From there also comes the name, Castrum Medianum, the middle castle, because it stood between two nearby fortresses. A staircase carved into the stone leads to the ancient lookout point, with the Basento valley underfoot.\n\nThe village has about eight hundred inhabitants, is part of the Most Beautiful Villages of Italy, and is one of the two stations of the Flight of the Angel, the steel cable that takes you to Pietrapertosa suspended in the void. A village to look at from below and, if you have courage, also from above."
+   "englishDescription": "Castelmezzano, in the province of Potenza (Basilicata, Italy), cannot be seen until you are inside it: you arrive by passing through a tunnel and at the exit the village suddenly appears, wedged between the sandstone spires of the Lucanian Dolomites.\n\nThe houses climb on top of each other at 750 meters above sea level, connected by stairs and alleys that lead up to the remains of the Norman-Swabian castle. From there also comes the name, Castrum Medianum, the middle castle, because it stood between two nearby fortresses. A staircase carved into the stone leads to the ancient lookout point, with the Basento valley underfoot.\n\nThe village has about eight hundred inhabitants, is part of the Most Beautiful Villages of Italy, and is one of the two stations of the Flight of the Angel, the steel cable that takes you to Pietrapertosa suspended in the void. A village to look at from below and, if you have courage, also from above.",
+   "aliases": [
+    "bing/57705"
+   ]
   },
   "bing-57545.jpg": {
    "title": "The bay of Villefranche-sur-Mer, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France",
@@ -165549,7 +165552,10 @@
     "bing/57676",
     "bing/57691",
     "bing/57692",
-    "bing/57693"
+    "bing/57693",
+    "bing/57696",
+    "bing/57701",
+    "bing/57702"
    ],
    "englishTitle": "Hobbit House in the Hobbiton movie set, Matamata, New Zealand",
    "englishHeadline": "Where small becomes big. Hobbiton Movie Set, Matamata, New Zealand",
@@ -165590,7 +165596,14 @@
    "sha256": "5ff6e8a774b027aac0c2b08aa7d8c591ad6bf481740d80514f9658ac1fb9715d",
    "dhash": "7cfecf26a4c49419",
    "aliases": [
-    "bing/57672"
+    "bing/57672",
+    "bing/57694",
+    "bing/57695",
+    "bing/57698",
+    "bing/57699",
+    "bing/57700",
+    "bing/57703",
+    "bing/57704"
    ],
    "palette": {
     "background": "#0f1417",
@@ -165826,6 +165839,47 @@
     "warning": "#a5d0bc",
     "danger": "#ffb4ab",
     "border": "#48473a"
+   }
+  },
+  "bing-57697.jpg": {
+   "title": "Vista del Parque Güell en Barcelona, Cataluña, España",
+   "headline": "La ciudad está de fiesta. Fiestas de La Mercè de Barcelona",
+   "description": "Hoy Barcelona (Cataluña, España) celebra a su patrona y se echa a la calle: es el día de la Mercè, festivo en la ciudad y punto álgido de una fiesta mayor que desde 1871 despide el verano con un programa desplegado por plazas, calles y playas.\n\nEl repertorio es puro catálogo de cultura popular: castells en la plaza de Sant Jaume, correfocs con bestiario de fuego, gigantes y cabezudos, sardanas, conciertos repartidos por toda la ciudad y un piromusical final que reúne a decenas de miles de personas.\n\nLa imagen, en cambio, mira hacia arriba, al parque Güell. Gaudí lo proyectó entre 1900 y 1914 como una urbanización de lujo para Eusebi Güell, pero apenas se vendieron parcelas y el plan quedó a medias; en 1926 abrió como parque municipal y desde 1984 es Patrimonio Mundial. Un fracaso inmobiliario convertido en jardín de mosaicos: aquí la fiesta y la arquitectura comparten el mismo gusto por el exceso bien entendido.",
+   "copyright": "© Vershinin/Getty Image",
+   "date": "2026-09-24",
+   "tags": [
+    "aerial photography",
+    "bird's-eye view",
+    "aerial",
+    "grass",
+    "tree",
+    "plant",
+    "landscape",
+    "outdoor"
+   ],
+   "id": "57697",
+   "url": "https://peapix.com/bing/57697",
+   "source": "bing",
+   "market": "es",
+   "imageKey": "0976cb18d75c450fbb83e316509e84a7",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "16d646c8cc95be647cdcfcd5891a013641c69c5a9f8c1d5f26f10450d0c65a48",
+   "dhash": "cfb392cc98d995e1",
+   "englishTitle": "View of Park Güell in Barcelona, Catalonia, Spain",
+   "englishHeadline": "The city is celebrating. Barcelona La Mercè Festival",
+   "englishDescription": "Today Barcelona (Catalonia, Spain) celebrates its patron saint and takes to the streets: it is Mercè Day, a holiday in the city and the high point of a major festival that since 1871 has bid farewell to summer with a program spread across squares, streets and beaches.\n\nThe repertoire is a pure catalog of popular culture: castells in the Plaza de Sant Jaume, correfocs with bestiary of fire, giants and big heads, sardanas, concerts spread throughout the city and a final pyromusical that brings together tens of thousands of people.\n\nThe image, however, looks upwards, at Park Güell. Gaudí planned it between 1900 and 1914 as a luxury development for Eusebi Güell, but hardly any plots were sold and the plan was left half-finished; In 1926 it opened as a municipal park and since 1984 it has been a World Heritage Site. A real estate failure turned into a mosaic garden: here the party and the architecture share the same taste for well-understood excess.",
+   "palette": {
+    "background": "#12140d",
+    "surface": "#1e2019",
+    "surfaceHover": "#292b23",
+    "text": "#e3e3d8",
+    "muted": "#c6c8b9",
+    "accent": "#b6d085",
+    "accentStrong": "#95b755",
+    "warning": "#a0d0c9",
+    "danger": "#ffb4ab",
+    "border": "#45483d"
    }
   },
   "windows-spotlight-1006.jpg": {
