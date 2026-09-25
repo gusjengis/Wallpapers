@@ -157500,7 +157500,10 @@
     "warning": "#a0cfd2",
     "danger": "#ffb4ab",
     "border": "#43483f"
-   }
+   },
+   "aliases": [
+    "bing/57717"
+   ]
   },
   "bing-56678.jpg": {
    "sha256": "b955c6360c53c44a25c28b7b39c61abd5603b9affe1f525d0bf7676baf85a341",
@@ -165880,6 +165883,54 @@
     "warning": "#a0d0c9",
     "danger": "#ffb4ab",
     "border": "#45483d"
+   }
+  },
+  "bing-57716.jpg": {
+   "title": "Chinese lanterns for Mid-Autumn Festival celebration",
+   "headline": "When the moon joins the party. Mid-Autumn Festival",
+   "description": "What if the full moon were the guest of honor at your family dinner? That is the idea behind the Mid-Autumn Festival, also known as the Moon Festival. Celebrated on the 15th day of the eighth lunar month, it is one of the most important festivals in Chinese culture. Its roots trace back more than 3,000 years to moon-honoring rituals during the Zhou Dynasty. Its best-known legend tells of Chang'e, who drank an elixir of immortality and rose to the moon.\n\nMooncakes are the celebration's signature treat. Their round shape symbolizes completeness and reunion. Folklore claims that rebels once hid secret messages to overthrow the Mongol rulers inside mooncakes during the Yuan Dynasty.\n\nThe festival has also inspired matchmaking customs, earning comparisons to a lunar Valentine's Day. And while the Mid-Autumn moon is celebrated for its brightness, science says it is not necessarily the year's brightest. With legends, lanterns, and mooncakes, this festival has plenty to look up to.",
+   "copyright": "© LeeYiuTung/Getty Image",
+   "date": "2026-09-25",
+   "tags": [
+    "balloon",
+    "lantern",
+    "lighting",
+    "light",
+    "party supply",
+    "paper lantern"
+   ],
+   "id": "57716",
+   "url": "https://peapix.com/bing/57716",
+   "source": "bing",
+   "market": "us",
+   "imageKey": "13525b97b6f14aefada44756a6bd641a",
+   "width": 3840,
+   "height": 2160,
+   "sha256": "78e31ed2880223a570e23b79b8a358e307c5206383df7dbbd5085877177ee0f4",
+   "dhash": "288c0d29ab252da8",
+   "aliases": [
+    "bing/57706",
+    "bing/57707",
+    "bing/57708",
+    "bing/57709",
+    "bing/57710",
+    "bing/57711",
+    "bing/57712",
+    "bing/57713",
+    "bing/57714",
+    "bing/57715"
+   ],
+   "palette": {
+    "background": "#1a1110",
+    "surface": "#271d1c",
+    "surfaceHover": "#322826",
+    "text": "#f1dfdc",
+    "muted": "#d8c2be",
+    "accent": "#ffb4a8",
+    "accentStrong": "#ff8a78",
+    "warning": "#dec48c",
+    "danger": "#ffb4ab",
+    "border": "#534341"
    }
   },
   "windows-spotlight-1006.jpg": {
